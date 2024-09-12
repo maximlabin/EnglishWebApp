@@ -9,7 +9,6 @@ createRoot(document.getElementById('root')).render(
       <title>Моя страница</title>
       <meta name="description" content="Описание страницы" />
       <meta name="keywords" content="React, SEO, Метатеги" />
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     </Helmet>
     <App />
   </StrictMode>,
