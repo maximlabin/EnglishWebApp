@@ -1,14 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import App from './components/app/App.jsx'
 import { Helmet } from 'react-helmet';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Helmet>
-      <title>Моя страница</title>
+      <title>Обучение английскому</title>
       <meta name="description" content="Описание страницы" />
-      <meta name="keywords" content="React, SEO, Метатеги" />
+      <meta name="keywords" content="" />
     </Helmet>
     <App />
   </StrictMode>,
